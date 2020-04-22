@@ -16,10 +16,10 @@
 
   <!-- 页面元数据 -->
   
-    <title>GitBook安装和使用 - ticsmatic</title>
+    <title>阿里云SSL证书使用 - ticsmatic</title>
   
   
-    <meta name="description" content="介绍GitBook安装和使用">
+    <meta name="description" content="标题">
   
 
   <!-- feed -->
@@ -310,8 +310,8 @@
         
           
   <h1 class="title">
-    <a href="/2020/04/17/GitBook%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/">
-      GitBook安装和使用
+    <a href="/2020/04/20/index/">
+      阿里云SSL证书使用
     </a>
   </h1>
 
@@ -330,7 +330,7 @@
               <div class="new-meta-item date">
   <a class='notlink'>
     <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
-    <p>2020-04-17</p>
+    <p>2020-04-20</p>
   </a>
 </div>
 
@@ -348,42 +348,20 @@
       <section class="article typo">
         <div class="article-entry" itemprop="articleBody">
           
-          <p>介绍GitBook安装和使用</p>
+          <p>标题</p>
 <a id="more"></a>
 
-<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>GitBook 是一个基于 Node.js 的命令行工具，支持 Markdown 和 AsciiDoc 两种语法格式，可以输出 HTML、PDF、eBook 等格式的电子书。所以我更喜欢把 GitBook 定义为文档格式转换工具。</p>
-<p>因为 GitBook 是基于 Node.js，所以我们首先需要安装 Node.js</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; 检查是否有Node.js环境</span><br><span class="line">$ node -v</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 如果没有node环境的，先安装Node环境</span><br><span class="line">$ brew install node</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 现在安装 Node.js 都会默认安装 npm（node 包管理工具），所以我们不用单独安装 npm，打开命令行，执行以下命令安装 GitBook：</span><br><span class="line">npm install -g gitbook-cli</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 检查是否安装成功</span><br><span class="line">gitbook -v</span><br></pre></td></tr></table></figure>
-
-<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>想象一下，现在你准备构建一本书籍，你在硬盘上新建了一个叫 mybook 的文件夹，按照以前的做法，你会新建一个 Word 文档，写上标题，然后开始巴滋巴滋地笔耕。但是现在有了 GitBook，你首先要做的是在 mybook 文件夹下执行以下命令：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gitbook init</span><br></pre></td></tr></table></figure>
-
-<p>执行完后，你会看到多了两个文件 —— README.md 和 SUMMARY.md，它们的作用如下：</p>
-<blockquote>
-<p>README.md —— 书籍的介绍写在这个文件里<br>SUMMARY.md —— 书籍的目录结构在这里配置</p>
-</blockquote>
-<p>然后就是编辑这个书的目录了，实际上需要一个支持MarkDown的编辑器，我们使用VSCode，来编辑 README.md 和 SUMMARY.md文件</p>
-<p>编辑 SUMMARY.md 文件，内容修改为：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">* [Python 基础](README.md)</span><br><span class="line">* 1.python基础</span><br><span class="line">  * [1.1.认识Python](day01&#x2F;01-Python简介.md)</span><br><span class="line">  * [1.2.第一个Python程序](day01&#x2F;02-第一个程序.md)</span><br><span class="line">  * [1.3.Pycharm设置（知道）](day01&#x2F;03-Pycharm设置（知道）.md)</span><br><span class="line">  * [1.4.多文件项目的演练](day02&#x2F;04-多文件项目的演练.md)</span><br><span class="line">  * [1.5.注释](day02&#x2F;05-注释.md)</span><br><span class="line">  * [1.6.算数运算符](day02&#x2F;06-算数运算符.md)</span><br><span class="line">  * [1.7.程序执行原理（科普）](day02&#x2F;07-程序执行原理（科普）.md)</span><br><span class="line">  * [1.8.变量的基本使用](day02&#x2F;08-变量的基本使用.md)</span><br><span class="line">* day03</span><br><span class="line">  * [1.9.变量的命名](day03&#x2F;09-变量的命名.md)</span><br><span class="line">  * [1.10.判断（if）语句](day03&#x2F;10-判断（if）语句.md)</span><br><span class="line">  * [1.11.运算符](day03&#x2F;11-运算符.md)</span><br><span class="line">  * [1.12.循环](day03&#x2F;12-循环.md)</span><br><span class="line">* day04</span><br><span class="line">  * [函数基础](day04&#x2F;函数基础.md)</span><br><span class="line">* day05</span><br><span class="line">  * [高级变量类型](day05&#x2F;高级变量类型.md)</span><br><span class="line">* day06</span><br><span class="line">  * [综合应用——名片管理系统](day06&#x2F;综合应用——名片管理系统.md)</span><br><span class="line">* day07</span><br><span class="line">  * [变量进阶（理解）](day07&#x2F;变量进阶（理解）.md)</span><br><span class="line">  * [函数进阶](day07&#x2F;函数进阶.md)</span><br></pre></td></tr></table></figure>
-
-<p>然后我们回到命令行，在 mybook 文件夹中再次执行<code>gitbook init</code>命令。GitBook 会查找 SUMMARY.md 文件中描述的目录和文件，如果没有则会将其创建。</p>
-<p>接着我们执行<code>gitbook serve</code> 来预览这本书籍，执行命令后会对 Markdown 格式的文档进行转换，默认转换为 html 格式，最后提示 “Serving book on <a href="http://localhost:4000”。嗯，打开浏览器看一下吧">http://localhost:4000”。嗯，打开浏览器看一下吧</a>.</p>
-<p>当你写得差不多，你可以执行 gitbook build 命令构建书籍，默认将生成的静态网站输出到 _book 目录。实际上，这一步也包含在 gitbook serve 里面，因为它们是 HTML，所以 GitBook 通过 Node.js 给你提供服务了。</p>
-<p>当然，build 命令可以指定路径：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gitbook build [书籍路径] [输出路径]</span><br></pre></td></tr></table></figure>
-
-<p>serve 命令也可以指定端口：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gitbook serve --port 2333</span><br></pre></td></tr></table></figure>
-
-<p>你还可以生成 PDF 格式的电子书：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">gitbook pdf .&#x2F; .&#x2F;mybook.pdf</span><br><span class="line">gitbook epub .&#x2F; .&#x2F;mybook.epub</span><br><span class="line">gitbook mobi .&#x2F; .&#x2F;mybook.mobi</span><br></pre></td></tr></table></figure>
-<p>如果生成不了，你可能还需要安装一些工具，比如 ebook-convert。或者在 Typora 中安装 Pandoc 进行导出。</p>
-<p>此时基本就完成了。</p>
-<h2 id="安装过程中遇到的问题"><a href="#安装过程中遇到的问题" class="headerlink" title="安装过程中遇到的问题"></a>安装过程中遇到的问题</h2><ol>
-<li><p><code>gitbook init</code>超时<br>解决：替换npm的源</p>
-</li>
-<li><p><code>gitbook build</code>生成的html本地不能跳转<br>解决：修改书籍下”theme.js”文件的内容。把<code>if(m)for(</code>替换为<code>if(false)for(</code></p>
-</li>
+<h1 id="阿里云SSL证书使用"><a href="#阿里云SSL证书使用" class="headerlink" title="阿里云SSL证书使用"></a>阿里云SSL证书使用</h1><p>流程概要<br>购买-&gt;申请证书（提交资料，填入域名、联系方式）-&gt;ssl域名解析验证-&gt;等待审核(大致5分钟)-&gt;审核成功-下载使用</p>
+<h2 id="购买"><a href="#购买" class="headerlink" title="购买"></a>购买</h2><p>采用免费的个人版</p>
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>购买后点击”申请证书“<br>填入资料（域名、联系人、联系方式）<br>提交审核，大约3-20分钟，审核成功<br>然后下载证书（选择需要的证书类型，有Tomcat、Apache、Nginx、IIS等）</p>
+<h2 id="实例（为七牛云配置Https证书）"><a href="#实例（为七牛云配置Https证书）" class="headerlink" title="实例（为七牛云配置Https证书）"></a>实例（为七牛云配置Https证书）</h2><ol>
+<li>购买SSL证书<br>在阿里云购买证书SSL证书</li>
+<li>填写SSL证书申请资料<br>填写申请资料，其中要绑定的域名为<code>cdn.ticsmatic.com</code>，然后验证域名解析，验证成功</li>
+<li>下载证书<br>然后等待证书审核成功，下载Nginx类型的证书（因为七牛云需要的证书格式是pem、key，Nginx服务类型的证书刚好符合）<br>分割线</li>
+<li>使用证书<br>在七牛云的<code>SSL证书服务</code>tab下，上传在阿里云下载的SSL证书</li>
+<li>七牛云添加域名<br>在七牛云的<code>CDN</code>下添加自己的域名<code>cdn.ticsmatic.com</code>，选择已经添加的https证书</li>
+<li>七牛云cname解析<br>添加完域名后，七牛云会提示去对应的域名服务商进行cname域名解析。进入到阿里云的域名解析，解析七牛云的域名。填写cname信息后，去七牛云验证是佛解析成功（一般实时出结果）</li>
+<li>在七牛云中使用自定义的域名<br>在气七牛云的<code>对象存储</code>服务中，绑定自己的域名<code>cdn.ticsmatic.com</code>，然后访问路径下的对象资源时，前缀就是<code>cdn.ticsmatic.com</code></li>
 </ol>
 
           
@@ -421,7 +399,7 @@
           
         
           
-            <p>本文永久链接是：<a href=http://yoursite.com/2020/04/17/GitBook%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/>http://yoursite.com/2020/04/17/GitBook%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/</a></p>
+            <p>本文永久链接是：<a href=http://ticsmatic.com/2020/04/20/index/>http://ticsmatic.com/2020/04/20/index/</a></p>
           
         
       </blockquote>
@@ -458,10 +436,10 @@
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-04-21T13:13:39+08:00">
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-04-20T23:19:49+08:00">
   <a class='notlink'>
     <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
-    <p>更新于：2020-04-21</p>
+    <p>更新于：2020-04-20</p>
   </a>
 </div>
 
@@ -485,7 +463,7 @@
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer"
           
-          href="http://connect.qq.com/widget/shareqq/index.html?url=http://yoursite.com/2020/04/17/GitBook%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/&title=GitBook安装和使用 - ticsmatic&summary=介绍GitBook安装和使用"
+          href="http://connect.qq.com/widget/shareqq/index.html?url=http://ticsmatic.com/2020/04/20/index/&title=阿里云SSL证书使用 - ticsmatic&summary=标题"
           
           >
           
@@ -497,7 +475,7 @@
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer"
           
-          href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://yoursite.com/2020/04/17/GitBook%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/&title=GitBook安装和使用 - ticsmatic&summary=介绍GitBook安装和使用"
+          href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://ticsmatic.com/2020/04/20/index/&title=阿里云SSL证书使用 - ticsmatic&summary=标题"
           
           >
           
@@ -509,7 +487,7 @@
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer"
           
-          href="http://service.weibo.com/share/share.php?url=http://yoursite.com/2020/04/17/GitBook%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/&title=GitBook安装和使用 - ticsmatic&summary=介绍GitBook安装和使用"
+          href="http://service.weibo.com/share/share.php?url=http://ticsmatic.com/2020/04/20/index/&title=阿里云SSL证书使用 - ticsmatic&summary=标题"
           
           >
           
@@ -523,7 +501,7 @@
         <div class='hoverbox'>
           <a><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/wechat.png"></a>
           <div class='target'>
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVgAAAFYCAAAAAAzB7ucAAAEaUlEQVR42u3aQW7cMAwF0Nz/0u0BisDkJyXPFE87J5YsPc2CJPjzxzgyfhCABWuABQvWAHsF9icc8Ycf5qffeZpXPcfUAyxYsGDBggULFuxd2C2Y7kaf1n967gJW56ceYMGCBQsWLFiwYN+B7W4sPcipROFpfnqxZQ+wYMGCBQsWLFiw/xVsFahagN5OTMCCBQsWLFiwYMGCnQTkpxKIcsMFWLBgwYIFCxYs2K+EbTcoNAvb08J42rAxTVCud8KABQsWLFiwYMGCLcF2Rwr9Lc+xB1iwYMGCBQsWLNgrsNNxKsDfLmxPE4GyB1iwYMGCBQsWLNgrsGmAnG50Wgjvzttu7HjcD1iwYMGCBQsWLNhXYZ8C7WoBvPr3rUSiut60cP/r/sGCBQsWLFiwYMFege0WrruJwjRgn0J2L3K8T7BgwYIFCxYsWLBXYdOC8KlCdjdwT8/RvSCwYMGCBQsWLFiwnwnbhZgWwqcHr67XTXRSYLBgwYIFCxYsWLB3YdMFuwlBN8GYXlD3B9MtfP/zDBYsWLBgwYIFC/YK7FZhelogrl7YdoE6TYR+dQMLFixYsGDBggX7kbCnEoDTCcoUtnyxYMGCBQsWLFiwYK/AVjeUQk/fTxtG0nONGzzAggULFixYsGDBXoFNA/tpQpEe7FQCk75XbtgACxYsWLBgwYIFuwpbbZjYLjynBe9uoTrdb/pDAwsWLFiwYMGCBfsObNqw0AXYKrBPA/5pQwlYsGDBggULFizYd2Bvb/jUhU0L59N9gAULFixYsGDBgr0Lmx5gWmieFqanCcf2PsCCBQsWLFiwYMHehT11kGmBOQ3sq/tNG1Ye54EFCxYsWLBgwYK9CvsnHNPEoVtg3obtJkTtBAEsWLBgwYIFCxbsEdg0UZg2WHQL4u0DFtfZTnzAggULFixYsGDBvgPbTQy2C8pTiC78VsMJWLBgwYIFCxYs2HdgtwP87oGmhefq/p7WTeeBBQsWLFiwYMGCvQubLpAG5tPGkGlhfPsHAhYsWLBgwYIFC/YzYKsNEmnhuvv/7vemDRzTHwpYsGDBggULFizYu7Bpobl6gLSgvJ2orCUCTw0bYMGCBQsWLFiwYD8CtgrXbZiYXlT1IrvnSxMMsGDBggULFixYsO/ApgeoQp4C7+47vbjHfYEFCxYsWLBgwYJ9BTYNsNPAfQrd3f9WITzOvMCCBQsWLFiwYMGuwE5Ht5HiVqNGF7B7gY8JAliwYMGCBQsWLNijsGuB8XDe1vM0IekmNo+ZF1iwYMGCBQsWLNijsGlC0AXvJgAp3LTxo/p9sGDBggULFixYsJ8BOw2gq/9vB97h+91108YTsGDBggULFixYsN8J+1aC0X1vq4D+67pgwYIFCxYsWLBgvwr2dEBehUobT7qNJmDBggULFixYsGA/C7YbWHcTgLRhIg3YT13s8U4YsGDBggULFixYsCXY04H1FLYLtfXd9jywYMGCBQsWLFiwV2CN3QEWLFgDLFiwBtij4y8ABBHFmkfenAAAAABJRU5ErkJggg==">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARgAAAEYCAAAAACi5bZQAAAC+ElEQVR42u3aSZLjMAwEQP//09MfmA6hAMptyMmbwxKX1KUC4Ouf8d/xQgAGDBgwYMCsgXk1x+UCxeen/1+tm54HDBgwYMCAAbMPJl24+vsK6gpwur/4PGDAgAEDBgyYtTCXAaj4fDUYnnr/2HnAgAEDBgwYMF8PMw1iaXAEAwYMGDBgwIBJJzrdaEuDYBUKDBgwYMCAAfN8mG4w6zbOuoEyDYJv70SCAQMGDBgwYN4G0218ferv9nnAgAEDBgwYMGtgpqMb7LqNuO685fXBgAEDBgwYMGtgxoWdi4A1fa9a2Kp+oMvnwIABAwYMGDCPgalu+K5gOIWvgoABAwYMGDBg9sOkF4ir81QLTd31TwVJMGDAgAEDBswemHSj6XtpwepUA65d0AIDBgwYMGDAPBameuB0g+m8pxp3YMCAAQMGDJj9MNMANYVOG3OnG3JgwIABAwYMmOfATDeUNspOBchpAQ4MGDBgwIABsxemu7HqfNWDnGq0xcEPDBgwYMCAAbMWprpg+n86b7eBN228gQEDBgwYMGD2wKSB6m1Bq3mhKA2OYMCAAQMGDJi9MOnB05EWxK6gqgUyMGDAgAEDBsz3wXQD318VoLoXmH59HwwYMGDAgAGzDqY9URjkulBpgarbkAMDBgwYMGDA7IE5FczSQlO3IJUG0LiABgYMGDBgwIBZC9MF6jbUpgFyui4YMGDAgAED5jkw0w2mga0aGNOgeHvyBQMGDBgwYMB8DMxdF3G6havT+2k33MCAAQMGDBgwHwszHdNCVnfecmBLG3pgwIABAwYMmDUwdwW4Uw22bnBrF8rAgAEDBgwYMOtg0kA3DYApZLuBNg14YMCAAQMGDJg1MGmASi8cpQfpNujaBTQwYMCAAQMGzNfCnHruFHhc6AIDBgwYMGDAfC1M2pi7a71uoQsMGDBgwIABsxem23CbXgTqNtROfTAwYMCAAQMGzF6YbuMqDXTpBaO7nvv1PTBgwIABAwbMGhgDDBgwYMCAAbNs/ABCd6GKMnqqVQAAAABJRU5ErkJggg==">
           </div>
         </div>
       
@@ -543,24 +521,19 @@
         
           <div class="prev-next">
             
-              <a class='prev' href='/2020/04/20/%20%E9%98%BF%E9%87%8C%E4%BA%91SSL%E8%AF%81%E4%B9%A6%E4%BD%BF%E7%94%A8/'>
-                <p class='title'><i class="fas fa-chevron-left" aria-hidden="true"></i>阿里云SSL证书使用</p>
-                <p class='content'>标题
-
-
-阿里云SSL证书使用流程概要购买-&gt;申请证书（提交资料，填入域名、联系方式）-&gt;ssl域名解析验证-&gt;等待审核(大致5分钟)-&gt;审核成功-下载使用
-购买采用免费...</p>
+              <a class='prev' href='/2020/04/22/new-post-1/'>
+                <p class='title'><i class="fas fa-chevron-left" aria-hidden="true"></i>新文章</p>
+                <p class='content'>😃
+</p>
               </a>
             
             
-              <a class='next' href='/2020/04/15/Git%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/'>
-                <p class='title'>Git基础操作<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
-                <p class='content'>z
+              <a class='next' href='/2020/04/17/use-gitbook/'>
+                <p class='title'>GitBook安装和使用<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
+                <p class='content'>介绍GitBook安装和使用
 
 
-Git基础操作
-更多参考：GitBook V2
-配置账户123456$ git version                           # 查看版本$ git config ...</p>
+安装GitBook 是一个基于 Node.js 的命令行工具，支持 Markdown 和 AsciiDoc 两种语法格式，可以输出 HTML、PDF、eBook...</p>
               </a>
             
           </div>
@@ -604,7 +577,7 @@ Git基础操作
 
   <script>
     window.subData = {
-      title: 'GitBook安装和使用',
+      title: '阿里云SSL证书使用',
       tools: true
     }
   </script>
@@ -630,7 +603,7 @@ Git基础操作
 
 
     <div class='content'>
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#安装"><span class="toc-text">安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#使用"><span class="toc-text">使用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装过程中遇到的问题"><span class="toc-text">安装过程中遇到的问题</span></a></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#购买"><span class="toc-text">购买</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#使用"><span class="toc-text">使用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#实例（为七牛云配置Https证书）"><span class="toc-text">实例（为七牛云配置Https证书）</span></a></li></ol>
     </div>
   </section>
 
@@ -677,8 +650,17 @@ Git基础操作
       
     
       
+        Use
+        <a href="https://volantis.js.org/" target="_blank" class="codename">Volantis</a>
+        as theme, total visits
+          <span id="busuanzi_value_site_pv"><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span>
+          times
+        
+      
+    
+      
         <div class='copyright'>
-        <p><a href="https://ticsmatic.com" target="_blank" rel="noopener">Copyright © 2020 ticsmatic</a></p>
+        <p><a href="https://ticsmatic.com">Copyright © 2020 ticsmatic</a></p>
 
         </div>
       
@@ -724,7 +706,7 @@ Git基础操作
   </script>
 
 
-  <script async src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js"></script>
+  <script async src="true"></script>
 
 
 
