@@ -2,13 +2,13 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://ticsmatic.com</loc>
+        <loc>https://ticsmatic.com</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
 
     <url>
-        <loc>http://ticsmatic.com/posts/2c49c232/</loc>
+        <loc>https://ticsmatic.com/posts/2c49c232/</loc>
         <lastmod>2020-04-23T10:02:25.510Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -16,7 +16,7 @@
     </url>
 
     <url>
-        <loc>http://ticsmatic.com/posts/eb656981/</loc>
+        <loc>https://ticsmatic.com/posts/eb656981/</loc>
         <lastmod>2020-04-23T10:02:15.232Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -24,7 +24,7 @@
     </url>
 
     <url>
-        <loc>http://ticsmatic.com/posts/bfe2ba5b/</loc>
+        <loc>https://ticsmatic.com/posts/bfe2ba5b/</loc>
         <lastmod>2020-04-23T10:01:37.553Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -32,7 +32,7 @@
     </url>
 
     <url>
-        <loc>http://ticsmatic.com/posts/22f526fc/</loc>
+        <loc>https://ticsmatic.com/posts/22f526fc/</loc>
         <lastmod>2020-04-23T02:19:06.467Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -40,7 +40,7 @@
     </url>
 
     <url>
-        <loc>http://ticsmatic.com/posts/6cb5ab8a/</loc>
+        <loc>https://ticsmatic.com/posts/6cb5ab8a/</loc>
         <lastmod>2020-04-23T02:19:06.466Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -48,7 +48,7 @@
     </url>
 
     <url>
-        <loc>http://ticsmatic.com/posts/9aea9f9/</loc>
+        <loc>https://ticsmatic.com/posts/9aea9f9/</loc>
         <lastmod>2020-04-23T02:19:06.461Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>

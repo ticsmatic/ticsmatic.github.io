@@ -2,34 +2,34 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://ticsmatic.com</loc>
+        <loc>https://ticsmatic.com</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
     
     <url>
-        <loc>http://ticsmatic.com/404.html</loc>
+        <loc>https://ticsmatic.com/404.html</loc>
         <lastmod>2020-04-23T09:54:30.908Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>http://ticsmatic.com/tags/</loc>
+        <loc>https://ticsmatic.com/tags/</loc>
         <lastmod>2020-04-23T09:41:51.603Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>http://ticsmatic.com/categories/</loc>
+        <loc>https://ticsmatic.com/categories/</loc>
         <lastmod>2020-04-20T14:24:30.302Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>http://ticsmatic.com/about/</loc>
+        <loc>https://ticsmatic.com/about/</loc>
         <lastmod>2020-04-20T14:24:02.827Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>

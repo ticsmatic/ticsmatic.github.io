@@ -3,17 +3,17 @@
 
 
     <sitemap>
-        <loc>http://ticsmatic.com/post-sitemap.xml</loc>
+        <loc>https://ticsmatic.com/post-sitemap.xml</loc>
         <lastmod>2020-04-23T10:02:25.510Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://ticsmatic.com/page-sitemap.xml</loc>
+        <loc>https://ticsmatic.com/page-sitemap.xml</loc>
         <lastmod>2020-04-23T09:54:30.908Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://ticsmatic.com/category-sitemap.xml</loc>
+        <loc>https://ticsmatic.com/category-sitemap.xml</loc>
         <lastmod>2020-04-23T02:19:06.466Z</lastmod>
     </sitemap>
 
