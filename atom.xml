@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ticsmatic</title>
+  
+  <subtitle>路漫漫其修远兮 吾将上下而求索</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://ticsmatic.com/"/>
+  <updated>2020-04-23T02:19:06.464Z</updated>
+  <id>http://ticsmatic.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>新文章</title>
+    <link href="http://ticsmatic.com/posts/bfe2ba5b/"/>
+    <id>http://ticsmatic.com/posts/bfe2ba5b/</id>
+    <published>2020-04-22T10:10:31.000Z</published>
+    <updated>2020-04-23T02:19:06.464Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;😃&lt;/p&gt;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>阿里云SSL证书使用</title>
+    <link href="http://ticsmatic.com/posts/2c49c232/"/>
+    <id>http://ticsmatic.com/posts/2c49c232/</id>
+    <published>2020-04-20T15:19:10.000Z</published>
+    <updated>2020-04-23T02:19:06.462Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;标题&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>GitBook安装和使用</title>
+    <link href="http://ticsmatic.com/posts/9aea9f9/"/>
+    <id>http://ticsmatic.com/posts/9aea9f9/</id>
+    <published>2020-04-17T03:18:31.793Z</published>
+    <updated>2020-04-23T02:19:06.461Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;介绍GitBook安装和使用&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>使用Hexo搭建博客</title>
+    <link href="http://ticsmatic.com/posts/eb656981/"/>
+    <id>http://ticsmatic.com/posts/eb656981/</id>
+    <published>2020-04-15T08:26:43.109Z</published>
+    <updated>2020-04-23T09:25:45.979Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;介绍使用Hexo搭建博客&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Git基础操作</title>
+    <link href="http://ticsmatic.com/posts/22f526fc/"/>
+    <id>http://ticsmatic.com/posts/22f526fc/</id>
+    <published>2020-04-15T08:26:43.109Z</published>
+    <updated>2020-04-23T02:19:06.467Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;z&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>使用volantis主题</title>
+    <link href="http://ticsmatic.com/posts/6cb5ab8a/"/>
+    <id>http://ticsmatic.com/posts/6cb5ab8a/</id>
+    <published>2020-04-14T09:25:58.266Z</published>
+    <updated>2020-04-23T02:19:06.466Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;z&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="ios" scheme="http://ticsmatic.com/categories/ios/"/>
+    
+    
+  </entry>
+  
+</feed>
