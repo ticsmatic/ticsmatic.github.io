@@ -8,8 +8,24 @@
     </url>
 
     <url>
+        <loc>http://ticsmatic.com/posts/2c49c232/</loc>
+        <lastmod>2020-04-23T10:02:25.510Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://ticsmatic.com/posts/eb656981/</loc>
-        <lastmod>2020-04-23T09:25:45.979Z</lastmod>
+        <lastmod>2020-04-23T10:02:15.232Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://ticsmatic.com/posts/bfe2ba5b/</loc>
+        <lastmod>2020-04-23T10:01:37.553Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -26,22 +42,6 @@
     <url>
         <loc>http://ticsmatic.com/posts/6cb5ab8a/</loc>
         <lastmod>2020-04-23T02:19:06.466Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://ticsmatic.com/posts/bfe2ba5b/</loc>
-        <lastmod>2020-04-23T02:19:06.464Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://ticsmatic.com/posts/2c49c232/</loc>
-        <lastmod>2020-04-23T02:19:06.462Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
