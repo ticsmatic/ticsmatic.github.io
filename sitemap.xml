@@ -4,7 +4,7 @@
 
     <sitemap>
         <loc>https://ticsmatic.com/post-sitemap.xml</loc>
-        <lastmod>2020-04-23T10:02:25.510Z</lastmod>
+        <lastmod>2020-06-14T15:16:29.312Z</lastmod>
     </sitemap>
 
     <sitemap>
@@ -14,7 +14,12 @@
 
     <sitemap>
         <loc>https://ticsmatic.com/category-sitemap.xml</loc>
-        <lastmod>2020-04-23T02:19:06.466Z</lastmod>
+        <lastmod>2020-06-01T02:30:09.160Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>https://ticsmatic.com/tag-sitemap.xml</loc>
+        <lastmod>2020-06-01T02:30:09.160Z</lastmod>
     </sitemap>
 
 </sitemapindex>

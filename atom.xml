@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ticsmatic.com/"/>
-  <updated>2020-04-23T10:01:37.553Z</updated>
+  <updated>2020-05-31T03:34:00.275Z</updated>
   <id>https://ticsmatic.com/</id>
   
   <author>
@@ -17,21 +17,15 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>新文章</title>
-    <link href="https://ticsmatic.com/p/bfe2ba5b/"/>
-    <id>https://ticsmatic.com/p/bfe2ba5b/</id>
-    <published>2020-04-22T10:10:31.583Z</published>
-    <updated>2020-04-23T10:01:37.553Z</updated>
+    <title>Runloop</title>
+    <link href="https://ticsmatic.com/p/d4d0b04c/"/>
+    <id>https://ticsmatic.com/p/d4d0b04c/</id>
+    <published>2020-05-30T06:09:14.000Z</published>
+    <updated>2020-05-31T03:34:00.275Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;😃&lt;/p&gt;
-        
-      
+      &lt;p&gt;学习MJ的视频课程，整理总结知识点–Runloop&lt;/p&gt;
     
     </summary>
     
@@ -40,15 +34,15 @@
   </entry>
   
   <entry>
-    <title>GitBook安装和使用</title>
-    <link href="https://ticsmatic.com/p/9aea9f9/"/>
-    <id>https://ticsmatic.com/p/9aea9f9/</id>
-    <published>2020-04-17T03:18:31.793Z</published>
-    <updated>2020-04-23T02:19:06.461Z</updated>
+    <title>Runloop</title>
+    <link href="https://ticsmatic.com/p/d4d0b04c/"/>
+    <id>https://ticsmatic.com/p/d4d0b04c/</id>
+    <published>2020-05-30T06:09:14.000Z</published>
+    <updated>2020-06-03T00:45:58.668Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;介绍GitBook安装和使用&lt;/p&gt;
+      &lt;p&gt;学习MJ的视频课程，整理总结知识点–Runloop&lt;/p&gt;
     
     </summary>
     
@@ -57,15 +51,15 @@
   </entry>
   
   <entry>
-    <title>使用Hexo搭建博客</title>
-    <link href="https://ticsmatic.com/p/eb656981/"/>
-    <id>https://ticsmatic.com/p/eb656981/</id>
-    <published>2020-04-15T08:26:43.109Z</published>
-    <updated>2020-04-23T10:02:15.232Z</updated>
+    <title>GCD定时器、内存布局、Tagged Pointer</title>
+    <link href="https://ticsmatic.com/p/24a6731c/"/>
+    <id>https://ticsmatic.com/p/24a6731c/</id>
+    <published>2020-05-30T06:09:14.000Z</published>
+    <updated>2020-06-09T14:25:57.233Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;介绍使用Hexo搭建博客&lt;/p&gt;
+      &lt;p&gt;学习MJ的视频课程，整理总结知识点–GCD定时器、内存布局、Tagged Pointer&lt;/p&gt;
     
     </summary>
     
@@ -74,15 +68,15 @@
   </entry>
   
   <entry>
-    <title>Git基础操作</title>
-    <link href="https://ticsmatic.com/p/22f526fc/"/>
-    <id>https://ticsmatic.com/p/22f526fc/</id>
-    <published>2020-04-15T08:26:43.109Z</published>
-    <updated>2020-04-23T02:19:06.467Z</updated>
+    <title>MRC、copy</title>
+    <link href="https://ticsmatic.com/p/bff81d76/"/>
+    <id>https://ticsmatic.com/p/bff81d76/</id>
+    <published>2020-05-30T06:09:14.000Z</published>
+    <updated>2020-06-10T13:41:07.131Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;z&lt;/p&gt;
+      &lt;p&gt;学习MJ的视频课程，整理总结知识点–MRC、copy&lt;/p&gt;
     
     </summary>
     
@@ -91,15 +85,15 @@
   </entry>
   
   <entry>
-    <title>阿里云SSL证书使用</title>
-    <link href="https://ticsmatic.com/p/2c49c232/"/>
-    <id>https://ticsmatic.com/p/2c49c232/</id>
-    <published>2020-04-15T01:39:01.616Z</published>
-    <updated>2020-04-23T10:02:25.510Z</updated>
+    <title>atomic、读写安全、定时器</title>
+    <link href="https://ticsmatic.com/p/63797d9b/"/>
+    <id>https://ticsmatic.com/p/63797d9b/</id>
+    <published>2020-05-30T06:09:14.000Z</published>
+    <updated>2020-06-09T10:01:11.368Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;标题&lt;/p&gt;
+      &lt;p&gt;学习MJ的视频课程，整理总结知识点–atomic、读写安全、定时器&lt;/p&gt;
     
     </summary>
     
@@ -108,20 +102,256 @@
   </entry>
   
   <entry>
-    <title>使用volantis主题</title>
-    <link href="https://ticsmatic.com/p/6cb5ab8a/"/>
-    <id>https://ticsmatic.com/p/6cb5ab8a/</id>
-    <published>2020-04-14T09:25:58.266Z</published>
-    <updated>2020-04-23T02:19:06.466Z</updated>
+    <title>weak指针、autorelease原理</title>
+    <link href="https://ticsmatic.com/p/1abf6ce/"/>
+    <id>https://ticsmatic.com/p/1abf6ce/</id>
+    <published>2020-05-30T06:09:14.000Z</published>
+    <updated>2020-06-11T01:36:09.590Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;z&lt;/p&gt;
+      &lt;p&gt;学习MJ的视频课程，整理总结知识点–weak指针、autorelease原理&lt;/p&gt;
     
     </summary>
     
     
-      <category term="ios" scheme="https://ticsmatic.com/categories/ios/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>性能优化-耗电、架构设计</title>
+    <link href="https://ticsmatic.com/p/34aa13dd/"/>
+    <id>https://ticsmatic.com/p/34aa13dd/</id>
+    <published>2020-05-30T06:09:14.000Z</published>
+    <updated>2020-06-14T15:16:29.312Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;学习MJ的视频课程，整理总结知识点–性能优化-耗电、架构设计&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>性能优化-卡顿</title>
+    <link href="https://ticsmatic.com/p/a073543c/"/>
+    <id>https://ticsmatic.com/p/a073543c/</id>
+    <published>2020-05-30T06:09:14.000Z</published>
+    <updated>2020-06-14T15:11:18.653Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;学习MJ的视频课程，整理总结知识点–性能优化-卡顿&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Runloop</title>
+    <link href="https://ticsmatic.com/p/d4d0b04c/"/>
+    <id>https://ticsmatic.com/p/d4d0b04c/</id>
+    <published>2020-05-30T06:09:14.000Z</published>
+    <updated>2020-06-02T13:52:58.580Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;学习MJ的视频课程，整理总结知识点–Runloop&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>队列组、自旋锁</title>
+    <link href="https://ticsmatic.com/p/9aa1f76b/"/>
+    <id>https://ticsmatic.com/p/9aa1f76b/</id>
+    <published>2020-05-30T06:09:14.000Z</published>
+    <updated>2020-06-09T01:44:30.888Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;学习MJ的视频课程，整理总结知识点–队列组、自旋锁&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Runtime API</title>
+    <link href="https://ticsmatic.com/p/78c95faf/"/>
+    <id>https://ticsmatic.com/p/78c95faf/</id>
+    <published>2020-05-27T06:09:14.000Z</published>
+    <updated>2020-05-30T15:20:15.569Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;学习MJ的视频课程，整理总结知识点–Runtime API&lt;/p&gt;&lt;p&gt;本文主要简单介绍Runtime常用的一些API，相关的API包括类、成员变量、属性、方法等。另，文章前面已介绍不少Runtime的API，这里不再重复&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>super、class面试题</title>
+    <link href="https://ticsmatic.com/p/a123b137/"/>
+    <id>https://ticsmatic.com/p/a123b137/</id>
+    <published>2020-05-23T06:09:14.000Z</published>
+    <updated>2020-05-27T05:44:03.324Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;学习MJ的视频课程，整理总结知识点–super、class面试题&lt;/p&gt;&lt;p&gt;本文讲解super、class相关的一些面试题，利用底层的知识来分析讲解&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Runtime-objc_msgSend</title>
+    <link href="https://ticsmatic.com/p/e8e2068/"/>
+    <id>https://ticsmatic.com/p/e8e2068/</id>
+    <published>2020-05-23T06:09:14.000Z</published>
+    <updated>2020-05-26T15:11:02.370Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;学习MJ的视频课程，整理总结知识点–objc_msgSend&lt;/p&gt;&lt;p&gt;本文主要从Class结构体出发，讲解&lt;code&gt;class_rw_t&lt;/code&gt;的结构及&lt;code&gt;class_rw_t&lt;/code&gt;中的&lt;code&gt;methods&lt;/code&gt;，及Class中的&lt;code&gt;cache_t cache&lt;/code&gt;。&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>class</title>
+    <link href="https://ticsmatic.com/p/ed4b199f/"/>
+    <id>https://ticsmatic.com/p/ed4b199f/</id>
+    <published>2020-05-23T06:09:14.000Z</published>
+    <updated>2020-06-01T09:31:57.821Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;学习MJ的视频课程，整理总结知识点–class、super&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>block的copy、访问对象类型变量的底层实现</title>
+    <link href="https://ticsmatic.com/p/a3ade774/"/>
+    <id>https://ticsmatic.com/p/a3ade774/</id>
+    <published>2020-05-20T06:09:14.000Z</published>
+    <updated>2020-05-21T04:18:31.171Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;学习MJ的视频课程，整理总结知识点–block的copy、访问对象类型变量的底层实现&lt;/p&gt;&lt;p&gt;本文结合block的特性，探讨ARC下block自动copy的时机；以及block内访问外部的对象类型变量时底层实现；&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>block的copy、访问对象类型变量的底层实现、__block的底层实现</title>
+    <link href="https://ticsmatic.com/p/5ee3d56b/"/>
+    <id>https://ticsmatic.com/p/5ee3d56b/</id>
+    <published>2020-05-20T06:09:14.000Z</published>
+    <updated>2020-05-22T01:13:55.114Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;学习MJ的视频课程，整理总结知识点–__block的底层实现&lt;/p&gt;&lt;p&gt;本文根据前面所学的block的特性，结合Demo来讲解关于&lt;strong&gt;block的底层的一些东西。包括&lt;/strong&gt;block的底层源码，&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>block详解</title>
+    <link href="https://ticsmatic.com/p/95e305cc/"/>
+    <id>https://ticsmatic.com/p/95e305cc/</id>
+    <published>2020-05-14T02:53:04.000Z</published>
+    <updated>2020-06-01T03:48:32.232Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;学习MJ的视频课程，整理总结知识点–block详解&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;block是OC中实用频率很高的一个功能，同时在其它语言中也有相似的特性，比如swift中的闭包，Python中的闭包等。&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;本文先通过简单介绍block的使用，然后通过&lt;code&gt;clang&lt;/code&gt;重新编译导出block的一些源码来了解block的底层结构，随后会介绍block中的重要知识点&lt;code&gt;1. block中的变量捕获，2. block的类型&lt;/code&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>load initialize的本质</title>
+    <link href="https://ticsmatic.com/p/4235a91d/"/>
+    <id>https://ticsmatic.com/p/4235a91d/</id>
+    <published>2020-05-07T10:10:44.000Z</published>
+    <updated>2020-05-08T11:00:30.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;学习MJ的视频课程，整理总结知识点–load initialize的本质&lt;/p&gt;&lt;p&gt;这一篇通过&lt;code&gt;+load&lt;/code&gt;和&lt;code&gt;+initialize&lt;/code&gt;的官方文档并结合Demo来介绍这两个方法。同时会依据runtime源码来介绍&lt;code&gt;+load&lt;/code&gt;和&lt;code&gt;+initialize&lt;/code&gt;底层的逻辑。&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>关联对象(Associated)详解</title>
+    <link href="https://ticsmatic.com/p/4bdf012b/"/>
+    <id>https://ticsmatic.com/p/4bdf012b/</id>
+    <published>2020-05-03T10:10:44.000Z</published>
+    <updated>2020-05-14T01:51:32.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;学习MJ的视频课程，整理总结知识点–关联对象(Associated)详解&lt;/p&gt;&lt;p&gt;本文通过runtime中&lt;code&gt;objc_setAssociatedObject&lt;/code&gt;源码为切入点，同时结合category的底层结构(&lt;code&gt;struct category_t&lt;/code&gt;)、对象的底层结构(&lt;code&gt;objc_object&lt;/code&gt;)，类的底层结构(&lt;code&gt;objc_class&lt;/code&gt;)来讲解OC中的对象关联对象。主要回答：1、为什么分类不能添加属性(根本原因)、2、分类中怎样才能添加属性(关联对象)、3、关联对象的原理。&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Category的本质</title>
+    <link href="https://ticsmatic.com/p/e15d38f8/"/>
+    <id>https://ticsmatic.com/p/e15d38f8/</id>
+    <published>2020-05-03T10:10:44.000Z</published>
+    <updated>2020-05-20T02:58:00.024Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;学习MJ的视频课程，整理总结知识点–Category的本质&lt;/p&gt;
+    
+    </summary>
+    
     
     
   </entry>
